@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Example Homepage · JBoss Community</title>
+    <title>Example Left Column · JBoss Community</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="description">
@@ -106,31 +106,119 @@
           </div>
         </div>
       </div>
-      FIRST
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Project XYZ is Awesome!</h1>
-        <p>This is the basic template for the JBoss Community Bootstrap/Awestruct project sites. This is where you would put a marketing message.</p>
-        <p><a class="btn btn-primary btn-large" href="swatch.html">View the Swatches &raquo;</a></p>
-      </div>
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>Uses Bootstrap</h2>
-          <p>This theme is designed to layer on top of Bootstrap by using the standardized CSS classes and IDs so you can easily take advantage of all the great built in components of Bootstrap.</p>
-          <p><a class="btn" href="http://twitter.github.io/bootstrap/components.html">Bootstrap Components &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>Look and Feel Swatches</h2>
-          <p>To give a better view of some of the look and feel changes, we've put together a swatch file containing various styled components and the Font Awesome icon replacement for quick viewing.</p>
-          <p><a class="btn" href="swatch.html">Go to the Swatches &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>The JBoss Badge</h2>
-          <p>Projects are now able to utilize this standard look and feel or create their own. We just ask that you keep unedited this badge on your home page to show that your project is a part of the JBoss Family.</p>
-          <p></p>
-          <div class="jbossbadge">
-            <a href="http://www.jboss.org/"><img src="http://static.jboss.org/theme/images/common/jbossbadge.png"></a>
+      <div class="row-fluid">
+        <div id="equalHeightsLayout">
+          <div class="span3 well" id="leftcol">
+            <h2>Left Column h2</h2>
+            <p>Generally this left-colum should be used for sub-navigation purposes</p>
+            <ul class="icons-ul">
+              <li>
+                <i class="icon-li icon-chevron-sign-right"></i>
+                <a href="">
+                  Link 1
+                </a>
+              </li>
+              <li>
+                <i class="icon-li icon-chevron-sign-right"></i>
+                <a href="">
+                  Link 2
+                </a>
+              </li>
+              <li>
+                <i class="icon-li icon-chevron-sign-right"></i>
+                <a href="">
+                  Link 3
+                </a>
+              </li>
+              <li>
+                <i class="icon-li icon-chevron-sign-right"></i>
+                <a href="">
+                  Link 4
+                </a>
+              </li>
+            </ul>
+            <br>
+            <div class="div">
+              <ul class="nav nav-list">
+                <li class="active">
+                  <a href="#">
+                    <i class="icon-fixed-width icon-home"></i>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon-fixed-width icon-book"></i>
+                    Library
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon-fixed-width icon-pencil"></i>
+                    Applications
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon-fixed-width icon-cogs"></i>
+                    Settings
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="span9" id="maincol">
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="hero-unit">
+              <h1>Project XYZ is Awesome!</h1>
+              <p>This is the basic template for the JBoss Community Bootstrap/Awestruct project sites. This is where you would put a marketing message.</p>
+              <p><a class="btn btn-primary btn-large" href="swatch.html">View the Swatches &raquo;</a></p>
+            </div>
+            <!-- Example row of columns -->
+            <div class="row-fluid">
+              <h2>
+                <span>Three Equal Columns</span>
+              </h2>
+              <!-- begin equalHeights columns 3 -->
+              <div class="row-fluid equalHero" id="equalHeightsA">
+                <div class="span4">
+                  <a href="about.html">
+                    <img alt="" class="aligncenter" src="../demo/fc-Sandro_Botticelli_077.png">
+                  </a>
+                  <h3>
+                    <a href="about.html">We're an industry leader.</a>
+                  </h3>
+                  <p>Public domain images. We will increase our aptitude to evolve without decrementing our capacity to leverage. It may seem marvelous, but it's true!</p>
+                  <div class="pull-right">
+                    <a class="btn btn-primary" href="about.html">Details →</a>
+                  </div>
+                </div>
+                <div class="span4">
+                  <a href="about.html">
+                    <img alt="" class="aligncenter" src="../demo/fc-Sandro_Botticelli_046.png">
+                  </a>
+                  <h3>
+                    <a href="about.html">Second header to show equality.</a>
+                  </h3>
+                  <p>If all of this seems stunning to you, that's because it is! The capability to strategize extensibly leads to the aptitude to upgrade compellingly.</p>
+                  <div class="pull-right">
+                    <a class="btn btn-primary" href="about.html">Details →</a>
+                  </div>
+                </div>
+                <div class="span4">
+                  <a href="about.html">
+                    <img alt="" class="aligncenter" src="../demo/fc-Sandro_Botticelli_058.png">
+                  </a>
+                  <h3>
+                    <a href="about.html">What do we incubate? We'll show you.</a>
+                  </h3>
+                  <p>A company that can implement correctly will (eventually) be able to architect correctly. If you generate intuitively, you may have to synergize robustly.</p>
+                  <div class="pull-right">
+                    <a class="btn btn-primary" href="about.html">Details →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
